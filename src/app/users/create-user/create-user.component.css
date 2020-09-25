@@ -1,0 +1,27 @@
+h5{
+    text-align: left;
+    margin-left: 10%;
+}
+.job{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.name{
+    margin-left: 50px;
+
+}
+.button{ margin-left: 14%;
+}
+.cadastrocss{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.btn.btn-primary{
+    margin-left:130px;
+}
+.btn.btn-secundary{
+    background-color: gray;
+    margin-left: 2px;
+    color: white;
+}

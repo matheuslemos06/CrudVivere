@@ -1,0 +1,17 @@
+table {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+table thead{
+    background-color: rgb(181, 181, 192);
+}
+
+table td { 
+    border: 1px solid;
+}
+h1{
+    text-align: center;
+}
+

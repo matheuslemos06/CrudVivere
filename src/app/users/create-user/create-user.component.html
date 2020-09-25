@@ -1,0 +1,23 @@
+
+<div class="createcss">
+    <h5>Cadastro</h5>
+    <label class="name"> Nome:
+        <input  placeholder="insira o nome" [(ngModel)]= "request.name">
+    </label>
+    <br>
+    <label class="job"> Profissão:
+        <input placeholder="Insira a profissão" [(ngModel)]= "request.job">
+    </label>
+    <br>
+    <button (click)= "save()" class="btn btn-primary" type="submit">Salvar</button>
+    <a class="btn btn-secundary" href="/users" role="button">Cancelar</a>
+    <br>
+</div>
+<br><br>
+<div class="cadastrocss" *ngIf= "response">
+    <h3> Usuário criado com sucesso</h3>
+    <label>Nome:{{response.name}}</label><br>
+    <label>Profissão:{{response.job}}</label><br>
+    <label>Id:{{response.id}}</label><br>
+    <label>Criado em:{{response.createdAt}}</label><br>
+  </div>

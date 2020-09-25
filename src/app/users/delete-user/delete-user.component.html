@@ -1,0 +1,13 @@
+
+<div class="deletecss" *ngIf= "user">
+    <h5>Deseja remover este usuário?</h5>
+    <label> Nome: <strong>{{user.id}}</strong></label>
+    <br>
+    <label> Nome: <strong>{{user.first_name}}</strong></label>
+    <br>
+    <label> Sobrenome: <strong>{{user.last_name}}</strong></label>
+    <br>
+    <div>
+    <button (click)= "delete()" type="button" class="btn btn-secondary"> Apagar</button>
+    <a class="btn btn-primary" href="/users" role="button">Cancelar</a>
+</div>

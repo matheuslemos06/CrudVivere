@@ -1,0 +1,18 @@
+<div class="updatecss" *ngIf= "request">
+    <h5>Atualizar Usuário</h5>
+    <label class="updatename"> Nome:
+        <input placeholder="insira o nome" [(ngModel)]= "request.name">
+    </label>
+    <br>
+    <label> Profissão:
+        <input placeholder="Insira a profissão" [(ngModel)]= "request.job">
+    </label>
+    <br>
+    <div class="buttonatt">
+    <button  (click)= "update()" type="button" class="btn btn-success">Atualizar</button>
+    <a class="btn btn-primary" href="/users" role="button">Cancelar</a>
+    </div>
+</div>
+<div>
+    <router-outlet></router-outlet>
+    </div>
